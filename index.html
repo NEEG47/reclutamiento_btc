@@ -111,14 +111,42 @@
             <small class="mini-title">Espacio de respuesta:</small>
           </div>
 
-          <!-- Por favor borrar este contenido al momento de empezar con su respuesta -->
-          <div class="col-md-12 text-left">
-            <div class="ans">
-              <i>Su respuesta aquí, editar en el código de index.html</i>
-            </div>
+        <!-----------------------------------------ANSWER 1------------------------------------------------->
+        <hr>
+        <div class="services">
+          <h3>SERVICIOS <span id="blue-title">RESPONSIVE</span></h3>
+          <div class="service-links">
+            <a class="first-service" href="https://bluetideconsulting.com/servicios/web/"><i class="fas fa-link"></i></a>
+              <h5>NORMAL LINK</h5>
+              <p>Alienum phaedrum torquatos nec eu. vis detraxit periculis ex. nihil expetendis in mei. Mei an pericula euripidis.</p>
+              <button type="button">Más Información</button>
           </div>
-          <!-- Borrar hasta aquí -->
 
+          <div class="service-links">
+            <a id="empezar" href="https://bluetideconsulting.com/servicios/web/"><i class="fas fa-external-link-alt"></i></a>
+              <h5>COTIZA LINK</h5>
+              <p>Alienum phaedrum torquatos nec eu. vis detraxit periculis ex. nihil expetendis in mei. Mei an pericula euripidis.</p>
+              <button type="button">Más Información</button>
+          </div>
+          
+          <div class="service-links">
+            <a class="third-service" href="https://bluetideconsulting.com/servicios/web/" target=_blank><i class="far fa-window-restore"></i></a>
+              <h5>NEW TAG LINK</h5>
+              <p>Alienum phaedrum torquatos nec eu. vis detraxit periculis ex. nihil expetendis in mei. Mei an pericula euripidis.</p>
+              <button type="button">Más Información</button>
+          </div>
+
+          <div class="service-links">
+            <a class="fourth-service" href="https://bluetideconsulting.com/servicios/web/"><i class="far fa-window-maximize"></i></a>
+              <h5>MODAL LINK</h5>
+              <p>Alienum phaedrum torquatos nec eu. vis detraxit periculis ex. nihil expetendis in mei. Mei an pericula euripidis.</p>
+              <button type="button">Más Información</button>
+          </div>
+          <hr>
+        </div>
+        <!------------------------------------------------------------------------------------------------>
+
+          </div>
         </div>
       </div>
     </section>
@@ -157,13 +185,53 @@
             <small class="mini-title">Espacio de respuesta:</small>
           </div>
 
-          <!-- Por favor borrar este contenido al momento de empezar con su respuesta -->
-          <div class="col-md-12 text-left">
-            <div class="ans">
-              <i>Su respuesta aquí, editar en el código de index.html</i>
+          <!-----------------------------------------ANSWER 2------------------------------------------------->
+           
+      <div class="formulario">
+        <h3>FORMULARIO DE <span id="blue-title">CONTACTO</span></h3>  
+        <hr>
+      </div>
+        <div class="form1">
+          <form name="forma" action="index.html" method="post" onsubmit="validation()">
+            <div class="top-form">
+              <div class="inner-form">
+                <label>Nombre</label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              <div class="inner-form">
+                <label>Apellidos</label>
+                <input type="text" name="lastName" id="last-name">
+              </div>
             </div>
-          </div>
-          <!-- Borrar hasta aquí -->
+            
+            <div class="top-form">
+              <div class="inner-form">
+                <label>Teléfono</label>
+                <input type="telephone" name="telephone" id="telephone">
+              </div>
+              <div class="inner-form">
+                <label>Correo Electrónico</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+            </div>
+            
+            <div class="bottom-form">
+              <label>¿Está interesado en?</label>
+              <input type="text" name="topic" id="topic">
+            </div>
+            <div class="bottom-form">
+              <label>Observaciones</label>
+              <textarea name="observation" rows="4" cols="30" name="mensaje" id="menssage"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+
+        <div class="results">
+          <p id="resultado"></p>
+        </div>
+
+          <!------------------------------------------------------------------------------------------------>
 
 
         </div>
@@ -270,7 +338,6 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/prueba.js"></script>
-
   </body>
 
 </html>
